@@ -1,0 +1,2664 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+
+  <!-- Bootstrap CSS -->
+  
+  
+  <!-- <style>
+    .sectio {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+  </style> -->
+  
+  <script>
+    function showSection() {
+      // Get the current URL
+      var url = window.location.href;
+      // Split the URL by "/"
+      var parts = url.split("#");
+      // Get the last part of the URL
+      var id = parts[parts.length - 1];
+      // Get all sections
+      var sections = document.querySelectorAll('.sectio');
+      // Hide all sections
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].classList.remove('active');
+      }
+      // Show selected section
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</head>
+<body class="font-montserrat" onload="showSection()">
+
+<!-- <h2>Sections</h2> -->
+
+<!-- <ul>
+  <li><a href="#" onclick="showSection('section1')">Section 1</a></li>
+  <li><a href="#" onclick="showSection('section2')">Section 2</a></li>
+  <li><a href="#" onclick="showSection('section3')">Section 3</a></li>
+</ul> -->
+<div section="track1" class="container-fluid bg-light color">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-outline-danger color">
+      <div class="col">
+          <a class="navbar-brand" href="https://www.srmist.edu.in/"><img class="title-image-1" src="srm-institute-of-science-and-technology-logo-A378D5138F-seeklogo.com.png"></a>
+      </div>
+      <div class="col text-center">
+          <a class="navbar-brand" href="https://www.srmist.edu.in/"><img class="title-image-2" src="WhatsApp_Image_2023-03-24_at_11.35.54__1_-removebg.png"></a>
+      </div>
+      <div class="col text-end">
+          <a class="navbar-brand" href="https://www.srmist.edu.in/"><img class="title-image-3" src="My project.png"></a>
+      </div>
+      <!-- <a class="navbar-brand" href="https://www.srmist.edu.in/"><img src="images/srm-institute-of-science-and-technology-logo-A378D5138F-seeklogo.com.png"></a> -->
+  </nav>
+</div>
+
+
+<div id="track1" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Deep Learning</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 58</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color font-montserrat">
+      <button type="button" class="btn btn-light"><a href="abstracts/Screenshot 2023-03-28 130552.png" >Student Performance Analysis Using Deep Learning Technologies</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Nivedha M</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 121</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\121.png" >Automatic Number Plate Detection Using Deep Learning Techniques</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Raghav Khatoria</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 134</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/134.png" >Deep Learning Techniques for a Comparative Study of Crop Disease Detection</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>S Soumya Prasad</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 35</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/35.png" >Mental Health Condition and Sentiment Based Chatbot</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Prateek Anand
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 213</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/213.png" >I Know How You Are Feeling Now: A Multimodal Approach to Emotion Detection using Transfer 
+        Learning </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr Pratima Singh</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 121</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\121.png">Automatic Number Plate Detection Using Deep Learning Techniques</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Raghav Khatoria</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 181</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/181.png" >English Grammar and Spell Corrector using Deep Learning  </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr.A.Shobanadevi</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 314</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\314.png">Recruitment and Employment Trends in HR- Indian Perspective</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Priyanka Purohit</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 255</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/255.png" >Generative Models for Learning Document Representations along with
+        th i U t i ti</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>
+        Ankita Nainwal</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track2" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Machine Learning I</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 43</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/43.png" >Depression Detection in Twitter Metadata Using Machine Learning Models</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Shaik Rasheeda Begum</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 120</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\120.png" >Machine Learning Technics for Real-Time Chronic Kidney Disease Tracking</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Gokulraj P</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 205</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/205.png" >A Novel Approach For Live Image Capture And Estimation of Coordinates for Augmented 
+        Projection using Machine Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>M V Paavai</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 27</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/27.png" >MNIST Digit Classification using Machine learning algorithm</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Manda Nihari
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 143</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/143.png" >Machine Learning Methods for Balanced and Imbalanced Datasets to Predict Consumable Water</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>C Ganesh Kumar</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 19</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\19.png">Using Harmonic Progression Convergence Model and Hyperlink Induced Topic Search prompted for 
+        page ranking</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>John Vaseekaran S
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 78</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\78.png">Evaluation of the speakers' attitudes expressed in their State of the Union</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Subashree Guruchandar
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 372</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\372.png">K-means based Regression Model for Gene Function</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>P Hema
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 276</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\276.png">Analysis and Design of Fraud Detection and Prevention Techniques in</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Vipashi kansal
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<div id="track3" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Machine Learning</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 79</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/79.png" >Using statistical properties and random forests,classification performance modelevaluation for the 
+        mental arithmetic task-Brain Computer Interface</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Nirmala Devi.A</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 115</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\115.png" >Utilizing Machine Learning Techniques For Object Detection And Segmentation To Facilitate 
+        Workplace Safety</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Senthil Kumari P
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 233</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/233.png" >Identification of phishing website using machine learning algorithms</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Benny Pius D</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 171</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/171.png" >A Robust Texture Descriptor for Identifying License Plates in Challenging vehicle image Conditions 
+        Using SVM Algorithm</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>S Karpaga Vishalini
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 172</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/172.png" >Unlocking the Potential of Machine Learning in Osteoporosis Detection: A Comparative Study of 
+        Multilayer Perceptron, Convolutional Neural Network and Dropout Models </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Shivaraman Ramakrishnan
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 67</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/67.png">Analysing Twitch Streamer's Success from Twitter</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Daniel Lawrence
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 136</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\136.png">Data Characteristics Stability Based Random Forest Implementation of Credit Card Fraud Detection</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Reaia Ranjith
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 187</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/187.png">Detection of Retinal Exudates for the Classification of Abnormalities in</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Dr.A.Chinnasamy
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 15</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/15.png" >An Exploratory Study on The Acceptability of Artificial Intelligence (AI) In Healthcare in India</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Harsh Vikram Singh</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track4" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Cyber Security And Block Chain</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 237</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/237.png" >A Secure AODV Algorithm based Malicious Nodes Detection in Flying Ad-hoc Networks</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Nandha Gopal S M</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 48</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/48.png" >An Enhanced Security Model for Protecting Data Transmission and Communication in recent IoT 
+        Integrated Healthcare Industry Using Machine Learning Algorith</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Sriram Parabrahmachari
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 140</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/140.png" >Quantum Computing In Cyber Security </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Joshika S</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 1</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/1.png" >Detection and Prevention of Wormhole Attack in Wireless Sensor Networks</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Vishnu K
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 201</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/201.png" >Enhancing Intrusion Detection In Internet Of Vehicles Through Federated Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Abhishek Sebastian
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 129</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/129.png">Blockchain as a Service for Biometric Authentication</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Charan V
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 353</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/353.png">Social Network Integrated with Information Security</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Uppala Bharadwaja Sarma
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 8</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/8.png">Review of Blockchain Technology with Respect to Applications,Platforms and Architectures</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Nithya D
+      </p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track5" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Bio Medical</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 2</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/2.png" >A Survey on Energy efficient and time-aware routing methods in Wireless Body Area Network for 
+        Healthcare Application</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Aparna M</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 93</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="D:\mobile-site\abstracts\48.png" >An Overview of Emotion Recognition Using Multimodal Data</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Padmasree
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 355</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/355.png" >Student Information System Based on Face Biometrics with or Code Using Machine Learning 
+        Techniques </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Jana R M</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 348</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/348.png" >MRI Image Based Diagnosis Model for Alzheimers Disease using VGG16</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>S Ramya
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 216</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/216.png" >RESPIRONET: Leveraging UNET Architecture for Effective COVID-19 Severity Prediction from 
+        Pulmonary CT Images</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>M Ramla
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 24</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\24.png">Survey on Melanoma Skin Cancer Disease</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>R Lakshmi</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 66</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/66.png" >A study on the Pulmonary Diseases using Deep learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>M Beula Kutti
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color ">
+      <p>ICRTDA 384</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/384.png" >Free Energy Minimization Technique for The Measurement of RNA</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Dr.Ashok J
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 377</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/377.png" >A Novel Approach To Predict The Rna Bind Protein </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Venkata Kanaka Srivani Maddala
+      </p>
+
+    </div>
+
+  </div>
+
+  
+</div>
+</div>
+
+<div id="track6" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">IOT I</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 84</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/84.png" >Smart Fish Tank System Using Artificial Intelligence Based Internet Of Things</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Santhosh G R</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 119</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/119.png" >An IoT Enabled Health Monitoring and Work Guidance System for Mine Worker</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>S.Sudharsan
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 227</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/227.png" >Diagnosis of Heart Disease Using IoT in Edge with Multiple Machine Learning Techniques </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Blessed Sam B</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 116</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/116.png" >River Monitoring System Using Raspberry Pi</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Keerthi Vasan S
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 178</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/201.png" >Analysis and Rectification of Power Quality Issues in Grid Tied Inverter</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Joyal Isac
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 182</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\182.png">Super capacitor based electric vehicle</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Manoj S S
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 184</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\184.png">Alcohol Detection and Vehicle Control using Arduino</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr.Surekha Kamath
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 179</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\179.png">Smart Electric Vehicle Charging Station Using Solar Power</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Ulagammai
+      </p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track7" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">IOT II</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 137</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/137.png" >Design of Virtual Brain Using IoT</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Hemalatha R</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 388</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/388.png" >An Overview of different Autonomous Vehicle Algorithms for Sensing and Route Planning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>B. Govind Sudarshan
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 167</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/167.png" >Design And Implications of Motion Detector-Based Anti-Theft Bag System</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Jai Sreedhar G</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 177</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/177.png" >Reservoir Water Level Checker</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Saathvik Krishnan
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 174</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/174.png" >A Social Distancing Violation Monitoring and Alert System</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>T N Bharat Singh
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 154</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\154.png">Talking Glove using Df Mini Player and Speaker</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Soundariya K
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 236</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\236.png">House Rental Application System</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Sai Vinay Gondrala
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 151</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\151.png">Enhancing Commuting Experience for Students and Faculty: A Transportation Kit</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Vishvasena Dhayalan
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 364</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\364.png">Heart Disease Identification with the Support of Embedded IoT</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Kolluru Venkata Nagendran
+      </p>
+
+    </div>
+
+  </div>
+
+  
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 82</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\82.png">A Survey on Importance of Network Tools and Their Applications</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Parveen Ankhar A
+      </p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track8" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Image Processing II</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 153</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/153.png" >An Efficient Student Relationship Automation using Multimodal Temporal Convolution Networks 
+        and Ranked Resolving Computations</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Jeevitha C</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 68</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/68.png" >Precision Farming Tool featuring Crop Recommendation and Intelligent Fertilization</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>P Selvaraj
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 150</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/150.png" >Cardio Vascular Disease Prediction Using Multiple Machine Learning Algorithms</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Venkata Sai Ashrith Kona</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 196</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/196.png" >Deep Learning Based Music Genre Classification Using CNN</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Jhansi Ida S
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 354</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/354.png" >Camera Vision Based Animal Beat Back System for Agriculture using Machine Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>T Deepak S
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 12</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\12.png">Patient Diagnostic System using Binary Logistic Regression</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Ditipriya Ganguly
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 202</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\202.png">Health Disease Prediction Using Classification Algorithms</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr. Kolla Bhanu Prakash
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 392</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\12.png">Evaluation Of Agrometeorolgy Using Bootstrap</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Syed Musthafa A
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<div id="track9" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">IOT III</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 156</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/156.png" >Hypertension Tracking System Powered by the Internet of Things</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Vignesh NC</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 158</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/158.png" >A Peak Load Scheduling for Qos Promotion in Energy-Efficient Datacenters.</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Baskar R
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 155</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/155.png" >"Algorithm of Biometrics" The Relative Study </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Nithieesh S</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 4</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/4.png" >A Survey on E-Examination Framework for Visually Challenged People Using Voice Synthesizer</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Varsha S
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 86</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/86.png" >Camera Vision Based Animal Beat Back System for Agriculture using Machine Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Vedna Sharma
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 26</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\12.png">LIDAR Micro Drone with Proximity Sensing</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Abirami A
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 212</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\212.png">PHSRS: The Privacy-preserving Healthcare Service Recommender System</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr. Logesh R
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 210</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\210.png">Secure Data Transmission in Healthcare Monitoring Systems using Advanced Encryption and 
+        Decryption Techniques</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Renjith P N
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 120</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\120.png">Machine Learning Techniques for Real Time Chronic Kidney Disease ...</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Gokulraj P
+      </p>
+
+    </div>
+
+  </div>
+
+
+</div>
+</div>
+
+<div id="track10" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Image Processing II</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 142</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/142.png" >An Efficient Pre-Trained Classification of Brain Tumours with Convolutional Neural Networks</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>G.Sangeetha</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 157</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/157.png" >Improving Seedling Quality and Predict Plant Growth using Convolutional Neural Networks</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Rajdeep Porua
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 87</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/87.png" >Prediction of Paddy Crop Diseases Using Transfer Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Venkatarao Javvaji</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 65</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/65.png" >An Intensive Learning of Deep Learning in Alzhiemerâ€™s Disease Prediction </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>G Anbu Selvi
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 385</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/385.png" >Alert System for Forest Fire Detection Using CNN Algorithm</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Gopinath T
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 56</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\56.png">Multihead Driven Self Attention Adversarial Learning based One Class Classification (MDSAL-OCC) for Medical Image Screening </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Vijayalakshmi P
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 218</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\218.png">Efficient Air-Light and Transmission Estimation for Single Color Image De-Hazing</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Suganthi M
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 151</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\151.png">Enhancing Commuting Experience for Students and Faculty: A Transportation Kit</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Vishvasena Dhayalan
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 390</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\390.png">DeepFake Detection Using RESNET CNN</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Mukeshsai M
+      </p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track11" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Networking</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 384</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/384.png" >Effects of Channel Coding with Spatial Diversity on BER for 5G Mobile Communications</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Kalaivani M</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 14</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/14.png" >Detection of Age of Smart Device Users Using Accelerometer Sensor</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Faheem Nikhat.H
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 80</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/80.png" >Backward Random Walk based Source Location Protection in Sensor Network</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Nisha</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 232</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/232.png" >Comparing Performance of Secure Wireless Ad Hoc Network Data Transmission Using Distributed 
+        Key Management</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>S.Nandhini Devi
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 82</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/82.png" >A Survey on Importance of Network Tools and their Applications</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Parveen Akhther . A
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 88</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\88.png">Detection of DDOS Attack Using Random Forest Algorithm In SDN Environment</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Vigneshwaran K
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 204</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\204.png">Democratising Election Process </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>N. Anusha
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 46</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\46.png">Proposed Methodology to Optimize Delays of Trains in Indian Railways</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Shyamal Sundar Banerjee
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 273</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\272.png">Design of Evolutionary Algorithms to Enhance Coverage and ...</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Neha Garg
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 264</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\264.png">Cognitive Subcarrier Sharing Schemes for Cooperative D2D</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Dr. Aditya Pai H
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 362</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts\362.png">Analysis of The Market Capability and Forecast of Presence of Drugs</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Rama Krishna
+      </p>
+
+    </div>
+
+  </div>
+
+
+</div>
+</div>
+
+<div id="track12" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Natural Language Processing</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 83</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/83.png" >Company Permissibility for Business Activities using NLP</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Praseetha P</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 117</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\117.png" >Text categorization on News headlines deploying opinion mining in NLP</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>R. Punithavathi</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 219</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/219.png" >Detection of Virulent Messages Written in Code-Mixed Hindi-English Language</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr. R . Anita</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 72</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/72.png" >A Comprehensive Study of Data Analytic Techniques for Sales Forecasting Applications</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Gokilavani A
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 15</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/15.png" >An Exploratory Study on The Acceptability of Artificial Intelligence (AI) In Healthcare in India</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Harsh Vikram Singh</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 404</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/404.png" >Xception Framework for Predicting Pneumonitis Using Deep Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Renuka P
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 154</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/154.png" >Talking Glove Using Df Mini Player and Speaker</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Soundariya K</p>
+
+    </div>
+
+  </div>
+</div>
+</div>
+
+<div id="track13" class="container-fluid sectio text-center transparent">
+  <div class="row text-center">
+    <div class="col-lg-12 bgimage padbottom">
+      <h1 class="text-center heading flexbox">Image Processing III</h1>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <div class="row text-center table-heading">
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">ICRTDA</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Paper</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <p class="pt-3">Author</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center ">
+    <div class="col-lg-4 col-sm-4 table-contents first-color"> 
+      <p class="text-center">ICRTDA 114</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 text-center table-contents first-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/114.png" >Satellite Image Data Classification</a></button>
+
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents first-color">
+      <p>Mogana Priya M</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>ICRTDA 63</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <button type="button" class="btn btn-light"><a href="abstracts\63.png" >Brain tumour classification using Deep Learning and a Comparative study of Efficient Net </a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents second-color">
+      <p>Abishek R</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>ICRTDA 239</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/239.png" >Potato Disease Classification using Transfer Learning</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Blessy Daffodil C</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 76</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/76.png" >Vision based Object Detection Method for water surface Garbage capture robot</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Dr.L.Jerart Julus
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 356</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/356.png" >Aircraft Detection Analysis using Remote Sensing Images Deploying Deep Neural Network</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Dr.S. Geeitha</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 307</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/307.png" >Reducing the Impack of Covid-19 on an Organization Workforce</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Bhanu Sharma
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 304</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/304.png" >A Block Chain Based Secure Photo Sharing Framework for ...</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Raghu K V</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 355</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/355.png" >Student Information System Based on Face Biometrics with Code Using Machine Learning Techniques</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Jana R M
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents ">
+      <p>ICRTDA 262</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <button type="button" class="btn btn-light"><a href="abstracts/262.png" >Hybrid Multi Core Algorithms for Some Semi Neural Applications</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents">
+      <p>Garima Sharma</p>
+
+    </div>
+
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>ICRTDA 356</p>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <button type="button" class="btn btn-light"><a href="abstracts/356.png" >Aircraft Detection Analysis Using Remote Sensing Images Deploying ...</a></button>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-4 table-contents alternate-color">
+      <p>Dr. S. Geeitha
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+<!-- Bootstrap JavaScript -->
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+
+</body>
+</html>

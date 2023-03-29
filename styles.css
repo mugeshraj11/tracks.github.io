@@ -1,0 +1,177 @@
+.color{
+    background-color: #FFF1DC;
+    margin: 0;
+    padding: 0;
+}
+
+.title-image-1{
+    width: 42.5%;
+    height: 42.5%;
+}
+
+.title-image-2{
+    border:none;
+    text-align: center;
+    width:35%;
+    height: 35%;
+}
+
+.title-image-3{
+    text-align: center;
+    width:27.5%;
+    height: 27.5%;
+}
+
+.info{
+    margin-bottom: 0%;
+}
+
+.link{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2.75rem;
+}
+
+
+.bgimage{
+    background-image: url("https://www.rmets.org/sites/default/files/Paula%2520Davies%2520-%2520Jack%2520Frost.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padbottom{
+    padding-bottom: 12%;
+}
+
+.sectio {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+
+    .pad{
+        display: flex;
+        align-items:center;
+        padding-left: 6%;
+    }
+    
+    .column-1{
+        width: 8.33%;
+        text-align: center;
+    }
+    
+    .lightwhite{
+        background-color: #F0EEED;
+    }
+    
+    .white{
+        background-color: white;
+    }
+    p{
+        outline: 0px;
+    }
+    
+    @media screen and (min-width: 992px) {
+        .hide{
+            display: none;
+        }
+
+        .table-heading{
+            font-size: 1.5rem;
+        }
+    }
+
+    .heading{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 5rem;
+        color: white;
+    }
+
+    .single-line{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    /* #track1{
+        background-image: url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+
+    .transparent{
+            background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .container-fluid{
+        border:none;
+    }
+
+    .pad{
+        display: flex;
+        align-items:center;
+        padding-left: 13.65%;
+    }
+
+    .content{
+        padding-top: 6%
+    }
+
+    .table-heading{
+        background-color: #FFF4E0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        letter-spacing: 0.1rem;
+        font-size: 1.25rem;
+        
+    }
+
+
+    .table-contents{
+        padding:3% 0% 3% 0%;
+    }
+
+    .second-color{
+        background-color: #F9F5EB;
+    }
+
+    .alternate-color{
+        background-color: #F9F5EB;
+    }
+
+    .flexbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15%;
+        padding-bottom: 3%;
+    }
+
+    .btn {
+        outline: none;
+      }
+
+      a{
+        color:black;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color:white;
+      }
+
+      .font-montserrat{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+      }
+          
+
